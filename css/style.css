@@ -87,3 +87,40 @@ figure {
 .currentpage a {
   color:#002562
 }
+
+.jupiternav {
+background-image: linear-gradient(to bottom, #D4DEE1 0%, #BBC7D9 100%);
+
+}
+
+.jupiternav li {
+  display: inline;
+  background: #E7EFF9;
+  border-top-right-radius: 5px;
+  font-size: 15px;
+  box-shadow: 1px 1px 5px; gray;
+  height: 15px;
+}
+
+.jupiternav ul {
+  float: right;
+  margin-bottom: 0;
+}
+
+li a {
+  font-style: italic;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #A8BAD1
+}
+
+.clear {
+  clear: both;
+}
+
+.bottomnav {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
