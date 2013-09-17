@@ -1,0 +1,38 @@
+#sidetop{
+background-color: #36223E;
+width: 200px;
+/*height:400px;             /* ***************erase*/
+padding-bottom: 5px;
+padding-top: 5px;
+}
+#sidetop ul{
+  list-style-type: none;
+  color:#937B9E;
+
+}
+#sidetop li{
+  padding: 5px 15px;
+  font-size:12px;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+#sidetop li:nth-child(10){
+font-weight: bold;
+color: white;
+}
+#sidebot{
+  width: 200px;
+  background-color: #09234A;
+}
+#sidebot input-type{
+  width:100px;
+
+}
+input[type="search"]{
+  width:100px;
+}
+#button{
+  background-color:#426592;
+
+}
