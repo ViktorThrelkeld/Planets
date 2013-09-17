@@ -1,7 +1,23 @@
+body {
+  background: gray;
+  /*comment out*/
+}
+
+.bottomp {
+  margin-top: 0px;
+}
+
 .bodycontent {
   width: 750px;
   margin: auto;
   border:1px solid black;
+  background: white;
+  font-size: 13px;
+  border-top-right-radius: 20px;
+}
+
+.bodycontent p {
+  margin-left: 5px;
 }
 
 .figurewrapper {
@@ -9,9 +25,31 @@
   margin: 10px;
 }
 
+.overview h2 {
+  margin-left:10px;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+}
+
+.overviewlinks {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid black;
+}
+
+.overviewlinks a {
+  color:#396DC0
+}
+
+.overviewlinks p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
 figcaption {
-  font-size: .8em;
-  color:blue;
+  font-size: 11px;
+  color:#165AAE;
+  font-family: Helvetica;
 }
 
 figure {
@@ -31,11 +69,21 @@ figure {
 
 .readmore {
   font-weight: bold;
-  color: darkblue;
+  color: #043C96;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.socialmedia {
   text-align: center;
 }
 
 .socialmedia img {
-  height:50px;
-  width: 100px;
+  height: 25px;
+  width: 50px;
+  margin-bottom: -2px;
+}
+
+.currentpage a {
+  color:#002562
 }
