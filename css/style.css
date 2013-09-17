@@ -1,0 +1,41 @@
+.bodycontent {
+  width: 750px;
+  margin: auto;
+  border:1px solid black;
+}
+
+.figurewrapper {
+  border: 1px solid lightgray;
+  margin: 10px;
+}
+
+figcaption {
+  font-size: .8em;
+  color:blue;
+}
+
+figure {
+  margin-left: 10px;
+}
+
+.featuredmission p {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.featuredmission a {
+  text-decoration: underline;
+  color: blue;
+  font-weight: normal;
+}
+
+.readmore {
+  font-weight: bold;
+  color: darkblue;
+  text-align: center;
+}
+
+.socialmedia img {
+  height:50px;
+  width: 100px;
+}
